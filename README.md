@@ -1,4 +1,4 @@
-🌐 Arduino Ultrasonic Radar System
+<img width="2500" height="1667" alt="image" src="https://github.com/user-attachments/assets/ec5b2b46-17bc-4dcf-9281-022b31e15bfe" />🌐 Arduino Ultrasonic Radar System
 
 A real-time radar scanner built using Arduino, HC-SR04 ultrasonic sensor, SG90 servo motor, and a Processing-based GUI.
 
@@ -27,3 +27,32 @@ HC-SR04 Ultrasonic Sensor
 SG90 Servo Motor
 Jumper wires
 USB cable
+
+
+⚙ How It Works
+Servo rotates from 15° → 165°
+At every angle, Arduino measures distance using HC-SR04
+Arduino sends angle,distance. over serial
+Processing reads & visualizes the data in radar style
+📸 Project Demo
+🏁 How to Run
+![HC_SR04_w_MG90S_radar_w_plot](https://github.com/user-attachments/assets/d6bfe98d-f854-4069-91ab-1c7aa26665ed)
+
+1️⃣ Upload Arduino code
+Open Arduino IDE
+Select correct board & port
+Upload the .ino file
+2️⃣ Run Processing code
+Install Processing IDE
+Install processing.serial.* library
+Set correct COM port
+Run the sketch
+🎛 Customization
+You can modify:
+Radar color
+Scan angle
+Text style
+Object detection range
+Sweep speed
+UI design
+Ask CG (me) if you want a custom radar UI redesign.
