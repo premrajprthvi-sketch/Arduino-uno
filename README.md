@@ -1,4 +1,4 @@
-<img width="2500" height="1667" alt="image" src="https://github.com/user-attachments/assets/ec5b2b46-17bc-4dcf-9281-022b31e15bfe" />🌐 Arduino Ultrasonic Radar System
+🌐 Arduino Ultrasonic Radar System
 
 A real-time radar scanner built using Arduino, HC-SR04 ultrasonic sensor, SG90 servo motor, and a Processing-based GUI.
 
